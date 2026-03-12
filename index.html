@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VIP KUNAL - Mega Earning System</title>
+    <style>
+        body { background: #000; color: #0f0; font-family: sans-serif; text-align: center; margin: 0; padding: 5px; }
+        
+        /* बरका विज्ञापन का स्टाइल */
+        .ad-slot { 
+            margin: 10px auto; 
+            width: 100%; 
+            max-width: 350px; 
+            min-height: 250px; 
+            background: #111; 
+            border: 1px solid #333;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .main-box { border: 3px solid #ff0000; padding: 25px; border-radius: 15px; background: #0a0a0a; max-width: 400px; margin: 15px auto; box-shadow: 0 0 25px #ff0000; position: sticky; top: 10px; z-index: 1000; }
+        .btn-red { background: #ff0000; color: #fff; padding: 18px; border: none; cursor: pointer; font-weight: bold; border-radius: 8px; font-size: 22px; width: 100%; display: none; }
+        #timer { font-size: 55px; margin: 15px; color: #ffff00; font-weight: bold; }
+        .step-tag { color: #fff; font-size: 22px; background: #ff0000; display: inline-block; padding: 5px 20px; border-radius: 20px; margin-bottom: 10px; font-weight: bold; }
+        
+        .ad-grid { display: grid; grid-template-columns: 1fr; gap: 10px; }
+    </style>
+</head>
+<body>
+
+    <div class="ad-grid">
+        <div class="ad-slot"><script type="text/javascript">atOptions={'key':'ad133a9cdb539541e146d423bdc6da56','format':'iframe','height':250,'width':300,'params':{}};</script><script type="text/javascript" src="//www.topcreativeformat.com/ad133a9cdb539541e146d423bdc6da56/invoke.js"></script></div>
+        <div class="ad-slot"><script type="text/javascript">atOptions={'key':'3d7c2982eda1b4d3dcb381efdbf51ec9','format':'iframe','height':250,'width':300,'params':{}};</script><script type="text/javascript" src="//www.topcreativeformat.com/3d7c2982eda1b4d3dcb381efdbf51ec9/invoke.js"></script></div>
+        <div class="ad-slot"><script type="text/javascript">atOptions={'key':'ad133a9cdb539541e146d423bdc6da56','format':'iframe','height':250,'width':300,'params':{}};</script><script type="text/javascript" src="//www.topcreativeformat.com/ad133a9cdb539541e146d423bdc6da56/invoke.js"></script></div>
+        <div class="ad-slot"><script type="text/javascript">atOptions={'key':'3d7c2982eda1b4d3dcb381efdbf51ec9','format':'iframe','height':250,'width':300,'params':{}};</script><script type="text/javascript" src="//www.topcreativeformat.com/3d7c2982eda1b4d3dcb381efdbf51ec9/invoke.js"></script></div>
+        <div class="ad-slot"><script type="text/javascript">atOptions={'key':'ad133a9cdb539541e146d423bdc6da56','format':'iframe','height':250,'width':300,'params':{}};</script><script type="text/javascript" src="//www.topcreativeformat.com/ad133a9cdb539541e146d423bdc6da56/invoke.js"></script></div>
+    </div>
+
+    <div class="main-box">
+        <div class="step-tag" id="stepDisplay">STEP 1 / 6</div>
+        <h2 style="margin: 5px 0;">VIP KUNAL SYSTEM</h2>
+        <div id="timer">30</div>
+        <button id="nextBtn" class="btn-red" onclick="moveNext()">CONTINUE NEXT STEP 😈</button>
+    </div>
+
+    <div class="ad-grid">
+        <div class="ad-slot"><script type="text/javascript">atOptions={'key':'3d7c2982eda1b4d3dcb381efdbf51ec9','format':'iframe','height':250,'width':300,'params':{}};</script><script type="text/javascript" src="//www.topcreativeformat.com/3d7c2982eda1b4d3dcb381efdbf51ec9/invoke.js"></script></div>
+        <div class="ad-slot"><script type="text/javascript">atOptions={'key':'ad133a9cdb539541e146d423bdc6da56','format':'iframe','height':250,'width':300,'params':{}};</script><script type="text/javascript" src="//www.topcreativeformat.com/ad133a9cdb539541e146d423bdc6da56/invoke.js"></script></div>
+        <div class="ad-slot" style="min-height: 500px;"><script type="text/javascript">atOptions={'key':'3d7c2982eda1b4d3dcb381efdbf51ec9','format':'iframe','height':250,'width':300,'params':{}};</script><script type="text/javascript" src="//www.topcreativeformat.com/3d7c2982eda1b4d3dcb381efdbf51ec9/invoke.js"></script></div>
+        <div class="ad-slot"><script type="text/javascript">atOptions={'key':'3d7c2982eda1b4d3dcb381efdbf51ec9','format':'iframe','height':250,'width':300,'params':{}};</script><script type="text/javascript" src="//www.topcreativeformat.com/3d7c2982eda1b4d3dcb381efdbf51ec9/invoke.js"></script></div>
+        <div class="ad-slot"><script type="text/javascript">atOptions={'key':'ad133a9cdb539541e146d423bdc6da56','format':'iframe','height':250,'width':300,'params':{}};</script><script type="text/javascript" src="//www.topcreativeformat.com/ad133a9cdb539541e146d423bdc6da56/invoke.js"></script></div>
+        <div class="ad-slot"><script type="text/javascript">atOptions={'key':'3d7c2982eda1b4d3dcb381efdbf51ec9','format':'iframe','height':250,'width':300,'params':{}};</script><script type="text/javascript" src="//www.topcreativeformat.com/3d7c2982eda1b4d3dcb381efdbf51ec9/invoke.js"></script></div>
+        <div class="ad-slot"><script type="text/javascript">atOptions={'key':'ad133a9cdb539541e146d423bdc6da56','format':'iframe','height':250,'width':300,'params':{}};</script><script type="text/javascript" src="//www.topcreativeformat.com/ad133a9cdb539541e146d423bdc6da56/invoke.js"></script></div>
+        <div class="ad-slot"><script type="text/javascript">atOptions={'key':'3d7c2982eda1b4d3dcb381efdbf51ec9','format':'iframe','height':250,'width':300,'params':{}};</script><script type="text/javascript" src="//www.topcreativeformat.com/3d7c2982eda1b4d3dcb381efdbf51ec9/invoke.js"></script></div>
+        <div class="ad-slot"><script type="text/javascript">atOptions={'key':'ad133a9cdb539541e146d423bdc6da56','format':'iframe','height':250,'width':300,'params':{}};</script><script type="text/javascript" src="//www.topcreativeformat.com/ad133a9cdb539541e146d423bdc6da56/invoke.js"></script></div>
+        <div class="ad-slot"><script type="text/javascript">atOptions={'key':'3d7c2982eda1b4d3dcb381efdbf51ec9','format':'iframe','height':250,'width':300,'params':{}};</script><script type="text/javascript" src="//www.topcreativeformat.com/3d7c2982eda1b4d3dcb381efdbf51ec9/invoke.js"></script></div>
+    </div>
+
+    <div class="ad-grid" id="bottomAds">
+        </div>
+
+    <script>
+        // नीचे के विज्ञापन ऑटो-जेनरेट करने के लिए ताकि कोड छोटा रहे
+        var bottomContainer = document.getElementById('bottomAds');
+        for(var i=0; i<10; i++) {
+            var div = document.createElement('div');
+            div.className = 'ad-slot';
+            div.innerHTML = '<p style="color:#222;">LOADING AD slot '+(i+16)+'...</p>';
+            // यहाँ आप अपनी असली स्क्रिप्ट भी इंजेक्ट कर सकते हैं
+            bottomContainer.appendChild(div);
+        }
+
+        var currentStep = 1;
+        var timeLeft = 30;
+        var timerObj;
+
+        function startTimer() {
+            timeLeft = 30;
+            document.getElementById("timer").style.display = "block";
+            document.getElementById("nextBtn").style.display = "none";
+            document.getElementById("stepDisplay").innerHTML = "STEP " + currentStep + " / 6";
+            
+            timerObj = setInterval(function() {
+                timeLeft--;
+                document.getElementById("timer").innerHTML = timeLeft;
+                if (timeLeft <= 0) {
+                    clearInterval(timerObj);
+                    document.getElementById("timer").style.display = "none";
+                    document.getElementById("nextBtn").style.display = "block";
+                }
+            }, 1000);
+        }
+
+        function moveNext() {
+            // हाई रिवेन्यू डायरेक्ट लिंक
+            window.open("https://www.highrevenuegate.com/ab123", "_blank");
+
+            if (currentStep < 6) {
+                currentStep++;
+                startTimer(); 
+                window.scrollTo(0,0); 
+            } else {
+                window.location.href = "YOUR_MEDIAFIRE_LINK_HERE";
+            }
+        }
+        window.onload = startTimer;
+    </script>
+</body>
+</html>
